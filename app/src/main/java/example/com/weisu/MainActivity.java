@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         try{
             String path = "android.resource://" + getBaseContext().getPackageName() +  "/" + R.raw.weisuserviceaccount;
-//            Uri uri = Uri.parse(path);
+            Uri uri = Uri.parse(path);
 //            System.out.println("uri: " + uri.toString());
-            File file = new File(path);
+            File file = new File(uri.getPath());
             myCredentials = ServiceAccountCredentials.fromStream(
                     new FileInputStream(file));
         } catch(Exception e){
