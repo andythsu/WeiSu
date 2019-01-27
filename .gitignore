@@ -9,6 +9,9 @@
 /captures
 .externalNativeBuild
 
+# Exclude service account from raw
+/app/src/main/res/raw/weisuserviceaccount.json
+
 # Built application files
 *.apk
 *.ap_
