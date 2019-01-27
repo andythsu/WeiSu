@@ -10,7 +10,7 @@
 .externalNativeBuild
 
 # Exclude service account from raw
-/app/src/main/res/raw/weisuserviceaccount.json
+/app/src/main/res/raw/weisu.json
 
 # Built application files
 *.apk
@@ -93,3 +93,4 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+app/src/main/res/raw/
